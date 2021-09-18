@@ -1,0 +1,54 @@
+.container {
+  box-sizing: border-box;
+  background: #1e81b0;
+  text-align: center;
+  align-items: center;
+  width: 25%;
+  border-radius: 25px;
+  margin: 100px auto;
+  padding: 20px;
+  position: relative;
+}
+
+.head {
+  color: aliceblue;
+  letter-spacing: 2px;
+}
+
+.btn {
+  background: #e28743;
+  margin: 10px 20px;
+}
+h1 {
+  color: #fff;
+}
+span {
+  display: flex;
+  background: #fff;
+  padding: 10px 20px;
+  align-items: center;
+  align-items: center;
+  border-radius: 15px;
+  display: inline-block;
+}
+.col {
+  display: inline-block;
+  align-items: center;
+}
+.clock {
+  box-sizing: border-box;
+  background: #1e81b0;
+  text-align: center;
+  align-items: center;
+  width: 25%;
+  border-radius: 25px;
+  margin: 100px auto;
+  padding: 20px;
+  position: relative;
+}
+
+.container::after {
+  display: block;
+  content: "";
+  clear: both;
+}
